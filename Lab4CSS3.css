@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+</style>
+</head>
+
+	<body>
+		header, .full-width {
+		  width: 100%;
+		  background: darkgreen;
+		}
+		.wrap {
+		  width: 80%;
+		  max-width: 24em;
+		  margin: 0 auto;
+		  padding: 0.25em 0.625em;
+		}
+		h1 {
+			color:teal;
+			font-family:Arial Black;
+		}
+		h2 {
+			color:gold;
+			font-family courier;
+			font-size: 160%
+		}
+		p {
+			color:teal;
+			font-family:Georgia;
+		}
+		pre {
+			font-family: Comic Sans MS;
+		}
+		q {
+			color:black;
+		}
+		a:link {
+			color:blue;
+			background-color:transparent;
+			text-decoration:underline;
+		}
+		a:visited {
+			color:pink;
+			background-color:transparent;
+		}
+		a:hover {
+			color:purple;
+			background-color:transparent;
+			text-decoration:underline;
+		}
+		a:active {
+			color:yellow;
+			background-color:transparent;
+		}
+		table {
+			border: 1px solid black;
+			padding: 5px;
+			text-align:left;
+		}
+		table tr:nth-child(even) {
+			background-color: #eee;
+		}
+		table tr:nth-child(odd) {
+			background-color: #fff;
+		}
+		header, .full-width {
+			width: 100%;
+			background: darkgreen;
+		}
+		.wrap {
+			width: 80%;
+			max-width: 24em;
+			margin: 0 auto;
+			padding: 0.25em 0.625em;
+		}
+		.pad7 {
+			padding: 7em;
+		}
+		.pad5 {
+			padding: 5em;
+		}
+		.pad2 {
+			padding: 2em;
+		}
+		.container {
+			display: flex;
+			justify-content: space-around;
+			align: middle;
+		}	
+	</body>
+</html>
