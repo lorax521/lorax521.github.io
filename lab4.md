@@ -2,7 +2,7 @@
 <html lang='en-US'>
 	<head>
 		<title>GEOG5095_Lab4HTML_Raines</title>
-		<link rel='stylesheet' href='stylesheets/main.css'>
+		<link rel='stylesheet' href='stylesheet/LAB4CSS3.css'>
 		<style>
 			body {
 				background-color: white
