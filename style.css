@@ -253,10 +253,13 @@ body {
   .project-content {
     flex: 1 1 auto;
     padding: 1.25rem;
-  
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+    
   }
 
   /*SKILLS*/
