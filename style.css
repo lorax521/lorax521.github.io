@@ -36,12 +36,10 @@ body {
   /*JUMBOTRON*/
   .jumbotron {
     height: 100vh; /*height to 100% of view height*/
-    /*background: #31b0d5; */
     background-image: url("http://orig05.deviantart.net/886f/f/2013/210/7/f/gosausee_iii_by_focusgallery-d6czfk7.jpg");
-    /*background-image: url("https://i.pinimg.com/originals/b0/b5/19/b0b519539e16f88d320c9a45633d5776.jpg");*/
-    background-size: 100% auto;
+    background-size: auto auto;
+    background-repeat: no-repeat;
     margin-bottom: 0; /*no bottom margin*/
-  
     display: flex;
     flex-direction: column;
   }
