@@ -35,10 +35,12 @@ body {
   
   /*JUMBOTRON*/
   .jumbotron {
-    height: 100vh; /*height to 100% of view height*/
+    height: 800px; /*height to 100% of view height*/
+    width: 100vw;
     background-image: url("http://orig05.deviantart.net/886f/f/2013/210/7/f/gosausee_iii_by_focusgallery-d6czfk7.jpg");
     background-size: auto auto;
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
   }
   
@@ -68,7 +70,6 @@ body {
   .jumbotron-content {
     display: flex;
     flex-direction: column; 
-    margin-top: 3%;
   }
   
   /*SOCIAL LINKS*/
@@ -95,6 +96,7 @@ body {
     margin-top: auto;
     text-align: center;
     margin-bottom: 50px;
+    padding: 25px;
   }
   
   #down-arrow a {
@@ -107,11 +109,12 @@ body {
       padding:10px 25px;
       border:2px solid #ffffff;
       border-radius:30px;
-      width: 15%;
+      width: auto;
       align-self: center;
       text-align: center;
-      text-decoration:none
-      transition: 0.5s ease all
+      text-decoration:none;
+      white-space: nowrap; 
+      transition: 0.2s ease all;
     }
 
 
