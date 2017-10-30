@@ -24,7 +24,12 @@ body {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.1s ease all;
   }
+
+  .navbar a:hover {
+    color: #87cefa;
+}
   
   .anchor {
     display: block;
@@ -101,6 +106,17 @@ body {
   
   #down-arrow a {
     color: white;
+  }
+
+  #up-arrow {
+    /*position: absolute;
+    width: 100%;*/
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #up-arrow a {
+    color: black;
   }
 
   .btn-rounded-white { 
