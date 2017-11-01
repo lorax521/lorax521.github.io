@@ -13,8 +13,10 @@ body {
     background-color: #000000;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
+    left: 0;
     width: 100%; /* Full width */
     display: flex;
+    flex-direction: row;
     justify-content: center;
     z-index: 1000;
   }
@@ -28,7 +30,7 @@ body {
   }
 
   .navbar a:hover {
-    color: #87cefa;
+    color: #3498db;
 }
   
   .anchor {
@@ -97,7 +99,15 @@ body {
     color: white;
     padding: 20px;
   }
-  
+
+  .fa {
+    transition: 0.2s ease all;
+  }
+
+  .fa:hover {
+    transform: scale(1.2);
+  }
+
   /*ARROW LINK*/
   #down-arrow {
     /*position: absolute;
@@ -191,6 +201,16 @@ body {
     color: #31b0d5;
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
+  }
+
+  h2 a {
+    font-weight: 200;
+    font-size: 2rem;
+    color: #31b0d5;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
   }
   
   .content-body {
@@ -277,11 +297,11 @@ body {
     border-bottom-left-radius: 5px;
     width: 100%;
     height: 100%;
-    transition: 0.2s ease all
+    transition: 0.4s ease all;
   }
 
 .project-image img:hover {
-    transform: scale(1.05)
+    transform: scale(1.03);
 }
   
   .project-content {
